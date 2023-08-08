@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajero Automático</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../src/styles/retiros.css">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Retiro en Cajero Automático</h2>
+    <h4>Retiros en efectivo BankTemis</h4>
+        <form method="POST" id="retiro">
+            <div class="display" id="display">
+            </div>
+            <div class="keyboard-container">
+                <div class="keyboard-button text-white" id="button-1">1</div>
+                <div class="keyboard-button text-white" id="button-2">2</div>
+                <div class="keyboard-button text-white" id="button-3">3</div>
+            <div class="keyboard-button red-button text-white" id="button-cancel">C</div>
+            
+            </div>
+            <div class="keyboard-container">
+                <div class="keyboard-button text-white" id="button-4">4</div>
+                <div class="keyboard-button text-white" id="button-5">5</div>
+                <div class="keyboard-button text-white" id="button-6">6</div>
+            <div class="keyboard-button yellow-button" id="button-clear">&#9003;</div>
+            </div>
+            <div class="keyboard-container">
+                <div class="keyboard-button text-white" id="button-7">7</div>
+                <div class="keyboard-button text-white" id="button-8">8</div>
+                <div class="keyboard-button text-white" id="button-9">9</div>
+            
+            <button class="keyboard-button green-button" type="submit" id="button-deposit">Retirar</button>
+            <div class="keyboard-button empty-button"></div>
+            </div>
+            <div class="keyboard-container">
+            <div class="keyboard-button empty-button"></div>
+            <div class="keyboard-button text-white" id="button-0">0</div>
+            
+            <div class="keyboard-button empty-button"></div>
+            </div>
+            <div id="message"></div>
+        </form>
+      
+  </div>
+  <a  class="m-5" href="../public/operaciones.html">
+    <button class="back-button">
+        <span class="arrow-left"></span>
+        Regresar
+    </button>
+</a>
+  <script type="module" src="../src/js/retiros.js"></script>
+</body>
+</html>

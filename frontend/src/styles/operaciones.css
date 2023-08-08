@@ -1,0 +1,50 @@
+body{
+    background-color: #e1dbdb;
+}
+header {
+    width: 100%;
+    background-color: #929191;
+  }
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+    font-size: 3em;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  .navbar-nav .nav-link .fas {
+    font-size: 28px;
+  }
+ .mensaje-usuario {
+    text-align: center;
+    margin-top: 20px
+  }
+.custom-btn {
+  background-color: rgb(207, 205, 205);
+  border: 2px solid #0f0f0f;
+  color: #000000;
+}
+ h2{
+    color: #000000;
+}
+
+.custom-btn:hover {
+    background-color: rgb(151, 199, 210);
+    border: 2px solid #f4c700;
+    color: #000000;
+  }
+
+.btn-ope{
+background-color:  #f4c700;
+border: 2px solid #000000;
+}
+
+.btn-ope:hover{
+    background-color: #f4e6a6;
+    border: 2px solid #000000;
+    }
+.btn-extra-lg {
+        padding: 40px 60px;
+        font-size: 1.5rem;
+      }

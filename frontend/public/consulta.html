@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/styles/consulta.css">
+    <title>Consulta de Saldo</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        Saldo y Datos del Usuario
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: <span id="user-name"></span></h5>
+                        <p class="card-text">Número de Cuenta: <span id="account-number"></span></p>
+                        <p class="card-text">Saldo Actual: $<span id="user-balance"></span></p>
+                        <p class="card-text">Creaste tu cuenta el: <span id="create-acount"></span></p>
+                        <p class="card-text">El estado de tu cuenta es: <span id="state-acount"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="../public/operaciones.html">
+            <button class="back-button">
+                <span class="arrow-left"></span>
+                Regresar
+            </button>
+        </a>
+    </div>
+
+   <script type="module" src="../src/js/consulta.saldo.js"></script>
+</body>
+</html>

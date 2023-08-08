@@ -1,0 +1,81 @@
+body {
+  background-image: linear-gradient(to bottom, #00cc66, #006633);
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .keyboard-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .display {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: right;
+  }
+
+  .keyboard-button {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .keyboard-button:hover {
+    background-color: #e9ecef;
+  }
+
+  .green-button {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .red-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  .yellow-button {
+    background-color: #fad505;
+    color: white;
+  }
+
+  .empty-button {
+    background-color: transparent;
+    border: none; }
+    
+    
+.back-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.arrow-left {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid white;
+}
+
+h4{
+  color: #28a745;
+}
